@@ -47,6 +47,8 @@ namespace Name_sorter
 
 
     //I could have moved this small class to its own file but as it's trivial and only used here, I'll leave it here.
+    //Lambda expressions are difficult to read for some, but with practice they become clearer and more maintainable.
+    //The spec said up to three given names but I made it more general to handle any number of given names.
     public static class NameSorter
     {
         public static List<string> SortNames(List<string> names)

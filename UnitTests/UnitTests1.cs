@@ -55,18 +55,18 @@ namespace Name_sorter.Tests
         {
             // Arrange
             var unsorted = new List<string>
-            {
-                "Janet Parsons",
-                "Vaughn Lewis",
-                "Adonis Julius Archer",
-                "Shelby Nathan Yoder",
-                "Marin Alvarez",
-                "London Lindsey",
-                "Beau Tristan Bentley",
-                "Leo Gardner",
-                "Hunter Uriah Mathew Clarke",
-                "Mikayla Lopez",
+            {              
                 "Frankie Conner Ritter",
+                "Mikayla Lopez",
+                "Hunter Uriah Mathew Clarke",
+                "Leo Gardner",
+                "Beau Tristan Bentley",
+                "London Lindsey",
+                "Marin Alvarez",
+                "Shelby Nathan Yoder",
+                "Adonis Julius Archer",
+                "Vaughn Lewis",
+                "Janet Parsons",
             };
 
             var expected = new List<string>
